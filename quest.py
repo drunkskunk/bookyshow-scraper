@@ -1,7 +1,6 @@
 import urllib2
 import time
 import sys
-import smtplib
 import urllib
 from bs4 import BeautifulSoup
 def sendSMS(apikey, numbers, sender, message):
